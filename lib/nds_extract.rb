@@ -38,7 +38,8 @@ end
 
 def total_gross(source)
   index = 0 
-  
+  while index < source.length do 
+    
   # Write this implementation
   #
   # Should use methods:
