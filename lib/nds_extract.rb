@@ -41,7 +41,6 @@ def total_gross(source)
   grand_total = 0 
   while index < source.length do 
     gross_earnings_all_directors += gross_for_director(source[index])
-    
     index += 1 
   end 
   grand_total 
