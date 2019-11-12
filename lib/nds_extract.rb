@@ -43,7 +43,7 @@ def total_gross(source)
     gross_earnings_all_directors += gross_for_director(source[index])
     index += 1 
   end 
-  grand_total 
+  gross_earnings_all_directors
 end  
     
   # Write this implementation
