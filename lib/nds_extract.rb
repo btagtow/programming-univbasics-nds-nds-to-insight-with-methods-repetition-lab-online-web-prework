@@ -37,14 +37,16 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-  index = 0 
-  grand_total = 0 
-  while index < source.length do 
-    each_director = list_of_directors[:dir_name]
-    grand_total += each_director[:dir_name]
-    index += 1 
-  end 
-  grand_total 
+  require "pp"
+  pp source
+  # index = 0 
+  # grand_total = 0 
+  # while index < source.length do 
+  #   each_director = list_of_directors[:dir_name]
+    
+  #   index += 1 
+  # end 
+  # grand_total 
 end  
     
   # Write this implementation
