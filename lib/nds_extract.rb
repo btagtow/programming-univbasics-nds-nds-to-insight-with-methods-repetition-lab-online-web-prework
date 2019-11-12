@@ -40,7 +40,7 @@ def total_gross(source)
   index = 0 
   grand_total = 0 
   while index < source.length do 
-    each_director = list_of_directors[:dir_name]
+    gross_earnings_all_directors = list_of_directors[:dir_name]
     
     index += 1 
   end 
