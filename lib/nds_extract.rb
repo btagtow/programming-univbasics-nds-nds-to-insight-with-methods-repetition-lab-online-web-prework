@@ -37,8 +37,6 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-  require "pp"
-  pp source
   index = 0 
   grand_total = 0 
   while index < source.length do 
